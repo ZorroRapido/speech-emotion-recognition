@@ -3,18 +3,34 @@
 **Authors:**
 Ivan Melnikov, Enam Qassem
 
-For the task of recognizing emotions from audio files we used the dataset named RAVDESS (source: https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio).
-It consists of 1440 files with recorded speech of 24 professional actors (12 female, 12 male), 60 tracks per actor x 24 actors = 1440.
+![image](https://user-images.githubusercontent.com/56500870/144304551-8f379c94-ffef-4c7b-8dbc-e9670c8df75f.png)
 
-Speech emotions includes calm, happy, sad, angry, fearful, surprise, and disgust expressions. Each expression is produced at two levels of emotional intensity (normal, strong), except the neutral one.
+
+For the task of recognizing emotions from audio files we used the dataset named **RAVDESS**.
+
+**Source**: https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
+
+It consists of files with recorded speech of 24 professional actors (12 female, 12 male), 60 tracks per actor x 24 actors = **1440 in total**.
+
+**Speech emotions includes (8 types)**:
+- calm
+- neutral
+- happy
+- sad
+- angry
+- fear
+- surprise
+- disgust
+
+Each expression is produced at two levels of **emotional intensity** (normal, strong), except the neutral one.
 
 Every actor has to perform 8 emotions by saying two sentences. 
 
 **The sentences stated are:**
-1. Kids are talking by the door.
-2. Dogs are sitting by the door.
+>1. Kids are talking by the door.
+>2. Dogs are sitting by the door.
 
-Thus, each actor would induce 2 samples for each emotion except neutral. The length of each audio file is about 4 seconds, the first and last second are usually silenced.
+The length of each audio file is about 4 seconds, the first and last second are usually silenced.
 
 **Libraries required:**
 ```
