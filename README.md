@@ -68,3 +68,13 @@ if not sys.warnoptions:
     warnings.simplefilter("ignore")
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 ```
+**Using the model**
+
+The model is stored in file 'model.pkl'.
+In order to use it, you'll need a python library called 'pickle'. See this example:
+```
+import pickle
+
+pickled_model = pickle.load(open('model.pkl', 'rb'))
+pickled_model.predict(X_test)
+```
