@@ -36,6 +36,10 @@ Every actor has to perform 8 emotions by saying two sentences.
 
 The length of each audio file is about 4 seconds, the first and last second are usually silenced.
 
+**Examples**
+
+https://youtu.be/UAFnlguE7Is
+
 **TESS**
 ----
 This dataset consists of 200 target words spoken with the phrase "Say the word <target_word>" by two actresses (aged 26 and 64 years).
