@@ -1,7 +1,7 @@
 # Speech Emotion Recognition
 
 **Authors:**
-Ivan Melnikov, Enam Qassem
+Ivan Melnikov and Enam Qassem
 
 ![image](https://user-images.githubusercontent.com/56500870/144304551-8f379c94-ffef-4c7b-8dbc-e9670c8df75f.png)
 
